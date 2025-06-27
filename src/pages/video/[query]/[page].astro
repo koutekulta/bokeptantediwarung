@@ -126,7 +126,7 @@ function capitalizeWords(str: string): string {
 const displayQuery = capitalizeWords(originalQuery);
 
 const breadcrumbs = [
-  { name: 'Home', url: '/' },
+  { name: 'Home', url: `${url}` },
   { name: `${displayQuery} di ${nama}`, url: null },
 ];
 ---
